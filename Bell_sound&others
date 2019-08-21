@@ -1,0 +1,13 @@
+#include<stdio.h>
+void
+main ()
+{
+  char bellch, vtabch, ch;
+  //Sounds a bell when printed :)
+  bellch = '\x7';
+  //prints vertical space when printed
+  vtabch = '\xb';
+  //hex 41=decimal 65: ASCII code for 'A'
+  ch = '\x47';
+  printf ("%c%c%c", bellch, vtabch, ch);
+}
