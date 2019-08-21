@@ -1,0 +1,13 @@
+//Program to check no. of distinct integers(non-repetative & sorted) && terminates with -1.
+#include<stdio.h>
+void main(){
+    int i,j,count=0;
+    scanf("%d",&j);
+    while(!(j==-1)){
+        i=j;
+        scanf("%d",&j);
+        if(!(j==i) && !(j==-1))
+        count++;
+    }
+    printf("%d",count+1);
+}
