@@ -1,0 +1,7 @@
+//Program to get the ASCII value of a character
+#include<stdio.h>
+void main(){
+    char c;
+    scanf("%c",&c);
+    printf("%d",c);
+}
