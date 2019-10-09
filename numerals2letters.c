@@ -1,7 +1,7 @@
 //numerlas 2 digits conversion:<100
 //input other than 0-100 will give unsupported/no value.
 #include<stdio.h>
-less_than_twenty(int a){
+void less_than_twenty(int a){
 	while (a < 20){
 		switch (a){
 			case 0:{
