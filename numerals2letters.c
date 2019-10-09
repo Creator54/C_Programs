@@ -109,7 +109,7 @@ void main (){
 											break;
 										}
 										else{
-											i=i%20;
+											i %= 20;
 											less_than_twenty(i);
 										}
 									}
@@ -124,7 +124,7 @@ void main (){
 										break;
 									}
 									else{
-										i=i%30;
+										i %= 30;
 										less_than_twenty(i);
 									}
 								}
@@ -136,7 +136,7 @@ void main (){
 									break;
 								}
 								else{
-									i=i%40;
+									i %= 40;
 									less_than_twenty(i);
 								}
 							}
@@ -148,7 +148,7 @@ void main (){
 								break;
 							}
 							else{
-								i=i%50;
+								i %= 50;
 								less_than_twenty(i);
 							}
 						}
@@ -160,7 +160,7 @@ void main (){
 							break;
 						}
 						else{
-							i=i%60;
+							i %= 60;
 							less_than_twenty(i);
 						}
 					}
@@ -172,7 +172,7 @@ void main (){
 	              		break;
 	            	}
 	            	else{
-	                	i=i%70;
+	                	i %= 70;
 	                	less_than_twenty(i);
 	            	}
 	        	}
@@ -184,7 +184,7 @@ void main (){
 	            	break;
 	        	}
 	        	else{
-	            	i=i%80;
+	            	i %= 80;
 	            	less_than_twenty(i);
 	    	    }
 	    	}	
@@ -196,7 +196,7 @@ void main (){
 	        	break;
 	   		}
 	    	else{
-	        	i=i%90;
+	        	i %= 90;
 	        	less_than_twenty(i);
 	    	}
 		}
