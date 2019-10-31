@@ -1,4 +1,4 @@
-/*Magic NO:It is a number whose sum of the digits concludes to 1.
+/*Magic NO: Number whose sum of the digits concludes to 1.
 i.e  19999
 1+9+9+9+9=37
 3+7=10
