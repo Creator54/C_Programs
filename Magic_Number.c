@@ -51,25 +51,25 @@ int add(int a){
             add(a);
         }
         else if(a>10000){
-            printf("Oops Beyond range.\n\nPress any no. to recheck 0 to Exit\n");
+            printf("Oops Beyond range.\n\nPress any no. to recheck \n");
             scanf("%d",&a);
             add(a);
         }
     }
     else if(a==1){
-        printf("Woah U got a Magic No.\n\nPress any no. to recheck 0 to Exit\n");
+        printf("Woah U got a Magic No.\n\nPress any no. to recheck \n");
         scanf("%d",&a);
         add(a);
     }
     else{
-        printf("Oops try again.\n\nPress any no. to retry 0 to Exit\n");
+        printf("Oops try again.\n\nPress any no. to recheck\n");
         scanf("%d",&a);
         add(a);
     }
 }
 void main(){
     int a;
-    printf("This Program checks for Magic No.(Range 1-99999)\n\nEnter your no.\t");
+    printf("This Program checks for Magic No.(Range 1-99999)\nUse 0 to Exit\n\nEnter your no.\t");
     scanf("%d",&a);
     add(a);
 }
