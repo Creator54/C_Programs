@@ -69,7 +69,7 @@ int add(int a){
 }
 void main(){
     int a;
-    printf("This Program checks for Magic No.(Range 1-9999)\n\nEnter your no.\t");
+    printf("This Program checks for Magic No.(Range 1-99999)\n\nEnter your no.\t");
     scanf("%d",&a);
     add(a);
 }
