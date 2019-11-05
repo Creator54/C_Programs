@@ -1,29 +1,32 @@
 #include<stdio.h>
 void f1(int a){
     for(int i=1;i<2*a;i++){
-        printf("%d ",a);
+        printf("%d  ",a);
     }
-    printf("\n%d ",a);
-    for(int i=1;i<2*a-2;i++){
-        printf("%d ",a-1);
+    printf("\n");
+    if(a!=2){
+        printf("%d  ",a);
+        for(int i=1;i<2*a-2;i++){
+            printf("%d  ",a-1);
+        }
+        printf("%d\n",a);
     }
-    printf("%d\n",a);
 }
 void f2(int a){
-    printf("%d ",a);
+    printf("%d  ",a);
     for(int i=1;i<2*a-2;i++){
-        printf("%d ",a-1);
+        printf("%d  ",a-1);
     }
     printf("%d\n",a);
 }
 void f3(int a){
-    printf("%d ",a);
+    printf("%d  ",a);
     for(int i=1;i<2*a-2;i++){
-        printf("%d ",a-1);
+        printf("%d  ",a-1);
     }
     printf("%d\n",a);
     for(int i=1;i<2*a;i++){
-        printf("%d ",a);
+        printf("%d  ",a);
     }
 }
 int main(){
@@ -40,11 +43,14 @@ Input:
 4
 
 Output:
-4 4 4 4 4 4 4
-4 3 3 3 3 3 4
-4 3 3 3 3 3 4
-4 3 3 3 3 3 4
-4 3 3 3 3 3 4
-4 3 3 3 3 3 4
-4 4 4 4 4 4 4
+4  4  4  4  4  4  4
+4  3  3  3  3  3  4
+4  3  3  3  3  3  4
+4  3  3  3  3  3  4
+4  3  3  3  3  3  4
+4  3  3  3  3  3  4
+4  4  4  4  4  4  4
 */
+
+
+
