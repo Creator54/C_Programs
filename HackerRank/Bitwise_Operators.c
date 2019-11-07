@@ -19,7 +19,7 @@ int main(){
 }
 /*
 Input:
-4 3//4-till which no. the operation should execute;3-till which max. value it should show/store
+4 3        //4-till which no. the operation should execute;3-till which max. value it should show/store
 
 Output:
 2          //max. AND value <3
