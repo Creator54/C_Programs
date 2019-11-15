@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main(){
     int a;
-    printf("Enter array size          :\t");
+    printf("Outputs sorted array of integers.\n\nEnter array size          :\t");
     scanf("%d",&a);
     if(a>=10){
         printf("Enter %d elements         :\t",a);
