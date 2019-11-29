@@ -1,5 +1,6 @@
-//bubble sort
-//outputs sorted integers
+// bubble sort
+// compares consecutive elements and if found greater swaps values
+// outputs sorted integers
 
 #include<stdio.h>
 
