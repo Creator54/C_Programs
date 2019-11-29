@@ -1,4 +1,5 @@
 // quick sort
+// compares each element with entire array elements and swaps if element found is greater
 
 #include<stdio.h>
 int main(){
