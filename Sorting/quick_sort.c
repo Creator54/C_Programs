@@ -1,4 +1,5 @@
-// Sorting :
+// quick sort
+
 #include<stdio.h>
 int main(){
     int a;
