@@ -1,11 +1,9 @@
-// bubble sort
-// compares consecutive elements and if found greater swaps values
 // outputs sorted integers
 
 #include<stdio.h>
 
 int main(){
-    int a,i=0,j;
+    int a,i=0,j,k=1,l;
     printf("Enter array size:\t");
     scanf("%d",&a);
     int b[a];
@@ -26,9 +24,10 @@ int main(){
             }
             i=-1;
         }
-    }
-    for(i=0;i<a;i++){
-        printf("%d ",b[i]);
+        printf("\nAfter %d iteration\n",k++);
+        for(l=0;l<a;l++){
+            printf("%d ",b[l]);
+        }
     }
     return 0;
 }
