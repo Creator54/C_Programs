@@ -9,6 +9,6 @@ int main(){
   n /= 10;
  }
  for(i = 0; i < 10; i ++)
- printf("Frequence of %d is %d\n",i,a[i]);
+  if(a[i] != 0) printf("Frequence of %d is %d\n",i,a[i]);
  return 0;
 }
