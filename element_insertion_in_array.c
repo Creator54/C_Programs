@@ -20,16 +20,25 @@ void insert(int n,int pos,int v){
     }
 }
 void main(){
-    printf("Enter the size of array :\t");
+    printf("Enter the size of array                             :\t");
     scanf("%d",&n);
-    printf("Enter the elements of the array :\n");
+    printf("Enter the elements of the array                     :\n");
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
     printf("Enter the index at which you want to insert element :\t");
     scanf("%d",&pos);
     
-    printf("Enter the element you want to insert :\t");
+    printf("Enter the element you want to insert                :\t");
     scanf("%d",&v);
-    insert(n,pos,v);
+    while(v!=-1){
+        insert(n,pos,v);
+        n++;
+        if(v!=-1){
+            printf("\nEnter the element you want to insert                :\t");
+            scanf("%d",&v);
+            printf("\nEnter the index at which you want to insert element :\t");
+            scanf("%d",&pos);
+        }
+    }
 }
