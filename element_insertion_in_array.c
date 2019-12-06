@@ -1,7 +1,7 @@
 //Insterting elements in an array
 #include<stdio.h>
 int a[50],i,j,n,pos,v;
-void insert(n,pos,v){
+void insert(int n,int pos,int v){
     for(i=0;i<n+1;i++){
         if(i==pos){
             int temp=a[i];
