@@ -1,10 +1,18 @@
 #include<stdio.h>
-int a;
-void f1(int b[]){
-    printf("%d %d %d %d %d",b[0],b[1],b[2],b[3],b[4]);
+int *f1(int a[]){
+  //modifing array values
+  a[0]=0;
+  a[1]=25;
+  return a;
+  //returning modified values
 }
 int main(){
-    int b[]={1,2,3,4,5};
-    f1(b);
-    return 0;
+  int a[2];
+  a[0]=10;
+  a[1]=2;
+  printf("%d %d",a[0],a[1]);
+  //passing an array
+  f1(a);
+  printf("%d %d",a[0],a[1]);
+  return 0;
 }
