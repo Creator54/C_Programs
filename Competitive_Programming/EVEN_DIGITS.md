@@ -30,20 +30,26 @@ Large dataset (Test set 2 - Hidden)
 
 1 ≤ N ≤ 1016.
 
-Sample
+Sample Input :
 
-
-Input  
  4 
-42
+ 
+ 42
+ 
  11
+ 
  1
+ 
  2018 
 
 Output: 
-Case #1: 0 
+
+Case #1: 0
+ 
 Case #2: 3 
+ 
 Case #3: 1
+ 
 Case #4: 2 
 
 Explanation:
