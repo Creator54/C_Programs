@@ -73,4 +73,3 @@ In Sample Case #3, the generated array of sweetness values Si is: [-6, -7, -9, 2
 In Sample Case #4, the generated array of sweetness values Si is the same as in Sample Case #3. However, this time Supervin can eat two odd candies. Therefore, he can get a maximum total sweetness level by taking the fifth, the sixth, and the seventh candies.
 
 In Sample Case #5, the generated array of sweetness values Si is: [-15, -16, -18, -7, -5, -6, -8, -17, -15, -16] where the bold and underlined numbers are the odd numbers. Note that it is possible for the maximum total sweetness level to be negative.
-
